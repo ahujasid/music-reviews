@@ -1,0 +1,111 @@
+body{
+    background: #F7F7F9;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.main-container{
+    width: 100%;
+    max-width: 728px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
+.card{
+    background: #ffffff;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 32px 80px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 1px 0px rgba(240,240,240,0,5);
+    border-radius: 16px;
+    transition: all ease 0.3s;
+    margin-bottom: 48px;
+}
+
+.card:hover{
+    box-shadow: 0px 48px 100px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 1px 0px rgba(240,240,240,0,5);
+    transform: translateY(-4px);
+    transition: all ease 0.3s;
+}
+
+.card-content{
+    display: flex;
+    padding: 40px;
+}
+
+
+.card-img{
+    max-width: 180px;
+    max-height: 180px;
+    width: 16vw;
+    height: 16vw;
+    border-radius: 16px;
+    margin-right: 40px;
+}
+
+.album-info{
+    float: left;
+    display: block;
+}
+
+.album-name{
+    font-family: objektiv-mk2;
+    font-weight: 700;
+    color: #2B2B2B;
+    font-size: 21px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.artist-name{
+    font-family: objektiv-mk2;
+    font-weight: 400;
+    color: #5B5B5B;
+    font-size: 21px;
+    margin: 0px;
+    font-style: italic;
+}
+
+.tag{
+    height: 32px;
+    padding: 0 16px;
+    font-family: objektiv-mk2;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 24px 0;
+    line-height: 32px;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+    width: auto;
+    display: inline-block;
+}
+
+.green{
+    background: #EEFFF5;
+    color: #238243;
+}
+
+.album-synopsis{
+    font-family: objektiv-mk2;
+    font-weight: 400;
+    color: #5B5B5B;
+    font-size: 16px;
+    margin: 0px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 728px) {
+    
+    .card-content{
+        padding: 24px;
+    }
+
+    .card{
+        margin-bottom: 48px;
+    }
+  }

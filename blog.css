@@ -1,0 +1,39 @@
+
+.card-featured{
+    background: #ffffff;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 0px 1px 0px rgba(240,240,240,0,5);
+    margin-bottom: 64px;
+    padding: 40px 0;
+}
+
+.quote{
+    font-family: objektiv-mk2;
+    font-weight: 700;
+    color: #2B2B2B;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.body-text{
+    font-family: objektiv-mk2;
+    font-weight: 400;
+    color: #2B2B2B;
+    font-size: 16px;
+    margin-top: 0px;
+    line-height: 1.5;
+}
+
+.para{
+    margin-bottom: 40px;
+}
+
+.mb40{
+    margin-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 728px) {
+    
+  }
